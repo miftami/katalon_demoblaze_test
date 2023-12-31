@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test_purchase" time="43.661" tests="3" failures="0" errors="0">
+   <testsuite name="test_purchase" tests="3" failures="0" errors="0" time="43.661" skipped="0" timestamp="31-12-2023T23:19:41" hostname="miftami - 192.168.17.209" id="Test Suites/test_purchase">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/miftami/Katalon Studio/My First Web UI Project/Reports/20231231_231902/test_purchase/20231231_231902"/>
+         <property name="logFiles" value="/Users/miftami/Katalon Studio/My First Web UI Project/Reports/20231231_231902/test_purchase/20231231_231902/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="miftami - 192.168.17.209"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Firefox 115.0"/>
+         <property name="hostAddress" value="192.168.17.209"/>
+         <property name="sessionId" value="574e0ef4-17d2-4f19-9c2d-0ffba4d45e2f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/demoblaze_tc/signup" time="23.91" classname="Test Cases/demoblaze_tc/signup" status="PASSED">
+         <system-out><![CDATA[31-12-2023T23:19:41 - [TEST_CASE][PASSED] - Test Cases/demoblaze_tc/signup: Test Cases/demoblaze_tc/signup
+
+31-12-2023T23:19:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-12-2023T23:19:42 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+31-12-2023T23:19:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-12-2023T23:19:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-12-2023T23:19:48 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com/"): Navigate to 'https://www.demoblaze.com/' successfully
+
+31-12-2023T23:19:51 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com/' successfully
+
+31-12-2023T23:19:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demoblaze/signup_repo/a_Sign up")): Object: 'Object Repository/demoblaze/signup_repo/a_Sign up' is clicked on
+
+31-12-2023T23:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/demoblaze/signup_repo/a_Sign up' is clicked on
+
+31-12-2023T23:19:57 - [TEST_STEP][PASSED] - setText(findTestObject("demoblaze/signup_repo/input_Username_sign-username"), "mmaarif"): Text 'mmaarif' is set on object 'Object Repository/demoblaze/signup_repo/input_Username_sign-username'
+
+31-12-2023T23:20:03 - [MESSAGE][PASSED] - Text 'mmaarif' is set on object 'Object Repository/demoblaze/signup_repo/input_Username_sign-username'
+
+31-12-2023T23:20:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/demoblaze/signup_repo/input_Password_sign-password"), "Tscr9DIxB28="): Text ****** has been set on object 'Object Repository/demoblaze/signup_repo/input_Password_sign-password'
+
+31-12-2023T23:20:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demoblaze/signup_repo/input_Password_sign-password'
+
+31-12-2023T23:20:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demoblaze/signup_repo/button_Sign up")): Object: 'Object Repository/demoblaze/signup_repo/button_Sign up' is clicked on
+
+31-12-2023T23:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/demoblaze/signup_repo/button_Sign up' is clicked on
+
+31-12-2023T23:20:04 - [TEST_STEP][PASSED] - click(findTestObject("demoblaze/signup_repo/button_Close")): Object: 'Object Repository/demoblaze/signup_repo/button_Close' is clicked on
+
+31-12-2023T23:20:05 - [MESSAGE][PASSED] - Object: 'Object Repository/demoblaze/signup_repo/button_Close' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoblaze_tc/signin" time="2.982" classname="Test Cases/demoblaze_tc/signin" status="PASSED">
+         <system-out><![CDATA[31-12-2023T23:20:05 - [TEST_CASE][PASSED] - Test Cases/demoblaze_tc/signin: Test Cases/demoblaze_tc/signin
+
+31-12-2023T23:20:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demoblaze/signin_repro/a_Log in")): Object: 'Object Repository/demoblaze/signin_repro/a_Log in' is clicked on
+
+31-12-2023T23:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/demoblaze/signin_repro/a_Log in' is clicked on
+
+31-12-2023T23:20:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demoblaze/signin_repro/input_Username_loginusername"), "mmaarif"): Text 'mmaarif' is set on object 'Object Repository/demoblaze/signin_repro/input_Username_loginusername'
+
+31-12-2023T23:20:07 - [MESSAGE][PASSED] - Text 'mmaarif' is set on object 'Object Repository/demoblaze/signin_repro/input_Username_loginusername'
+
+31-12-2023T23:20:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/demoblaze/signin_repro/input_Password_loginpassword"), "Tscr9DIxB28="): Text ****** has been set on object 'Object Repository/demoblaze/signin_repro/input_Password_loginpassword'
+
+31-12-2023T23:20:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demoblaze/signin_repro/input_Password_loginpassword'
+
+31-12-2023T23:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demoblaze/signin_repro/button_Log in")): Object: 'Object Repository/demoblaze/signin_repro/button_Log in' is clicked on
+
+31-12-2023T23:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/demoblaze/signin_repro/button_Log in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoblaze_tc/puchase_item" time="16.369" classname="Test Cases/demoblaze_tc/puchase_item" status="PASSED">
+         <system-out><![CDATA[31-12-2023T23:20:08 - [TEST_CASE][PASSED] - Test Cases/demoblaze_tc/puchase_item: Test Cases/demoblaze_tc/puchase_item
+
+31-12-2023T23:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demoblaze/purchase_item/img_CATEGORIES_card-img-top img-fluid")): Object: 'Object Repository/demoblaze/purchase_item/img_CATEGORIES_card-img-top img-fluid' is clicked on
+
+31-12-2023T23:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/demoblaze/purchase_item/img_CATEGORIES_card-img-top img-fluid' is clicked on
+
+31-12-2023T23:20:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demoblaze/purchase_item/a_Add to cart")): Object: 'Object Repository/demoblaze/purchase_item/a_Add to cart' is clicked on
+
+31-12-2023T23:20:14 - [MESSAGE][PASSED] - Object: 'Object Repository/demoblaze/purchase_item/a_Add to cart' is clicked on
+
+31-12-2023T23:20:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demoblaze/purchase_item/a_Cart")): Object: 'Object Repository/demoblaze/purchase_item/a_Cart' is clicked on
+
+31-12-2023T23:20:15 - [MESSAGE][PASSED] - Object: 'Object Repository/demoblaze/purchase_item/a_Cart' is clicked on
+
+31-12-2023T23:20:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demoblaze/purchase_item/button_Place Order")): Object: 'Object Repository/demoblaze/purchase_item/button_Place Order' is clicked on
+
+31-12-2023T23:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/demoblaze/purchase_item/button_Place Order' is clicked on
+
+31-12-2023T23:20:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demoblaze/purchase_item/input_Name_name"), "miftah"): Text 'miftah' is set on object 'Object Repository/demoblaze/purchase_item/input_Name_name'
+
+31-12-2023T23:20:18 - [MESSAGE][PASSED] - Text 'miftah' is set on object 'Object Repository/demoblaze/purchase_item/input_Name_name'
+
+31-12-2023T23:20:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demoblaze/purchase_item/input_Country_country"), "indonesia"): Text 'indonesia' is set on object 'Object Repository/demoblaze/purchase_item/input_Country_country'
+
+31-12-2023T23:20:18 - [MESSAGE][PASSED] - Text 'indonesia' is set on object 'Object Repository/demoblaze/purchase_item/input_Country_country'
+
+31-12-2023T23:20:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demoblaze/purchase_item/input_City_city"), "pasuruan"): Text 'pasuruan' is set on object 'Object Repository/demoblaze/purchase_item/input_City_city'
+
+31-12-2023T23:20:19 - [MESSAGE][PASSED] - Text 'pasuruan' is set on object 'Object Repository/demoblaze/purchase_item/input_City_city'
+
+31-12-2023T23:20:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demoblaze/purchase_item/input_Credit card_card"), "99776498234567654323"): Text '99776498234567654323' is set on object 'Object Repository/demoblaze/purchase_item/input_Credit card_card'
+
+31-12-2023T23:20:20 - [MESSAGE][PASSED] - Text '99776498234567654323' is set on object 'Object Repository/demoblaze/purchase_item/input_Credit card_card'
+
+31-12-2023T23:20:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demoblaze/purchase_item/input_Month_month"), "01"): Text '01' is set on object 'Object Repository/demoblaze/purchase_item/input_Month_month'
+
+31-12-2023T23:20:20 - [MESSAGE][PASSED] - Text '01' is set on object 'Object Repository/demoblaze/purchase_item/input_Month_month'
+
+31-12-2023T23:20:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demoblaze/purchase_item/input_Year_year"), "2030"): Text '2030' is set on object 'Object Repository/demoblaze/purchase_item/input_Year_year'
+
+31-12-2023T23:20:21 - [MESSAGE][PASSED] - Text '2030' is set on object 'Object Repository/demoblaze/purchase_item/input_Year_year'
+
+31-12-2023T23:20:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demoblaze/purchase_item/button_Purchase")): Object: 'Object Repository/demoblaze/purchase_item/button_Purchase' is clicked on
+
+31-12-2023T23:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/demoblaze/purchase_item/button_Purchase' is clicked on
+
+31-12-2023T23:20:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demoblaze/purchase_item/button_OK")): Object: 'Object Repository/demoblaze/purchase_item/button_OK' is clicked on
+
+31-12-2023T23:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/demoblaze/purchase_item/button_OK' is clicked on
+
+31-12-2023T23:20:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-12-2023T23:20:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-12-2023T23:19:41 - [TEST_SUITE][PASSED] - test_purchase: Test Cases/demoblaze_tc/puchase_item]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

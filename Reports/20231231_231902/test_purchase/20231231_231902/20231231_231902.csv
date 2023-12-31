@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test_purchase,Firefox 115.0,,,31-12-2023 23:19:41,31-12-2023 23:20:25,"43,661s",PASSED
+,,,,,,,
+Test Cases/demoblaze_tc/signup,Firefox 115.0,Sign Up Test,,31-12-2023 23:19:41,31-12-2023 23:20:05,"23,910s",PASSED
+"openBrowser("""")",Firefox 115.0,,,31-12-2023 23:19:42,31-12-2023 23:19:48,"6,481s",PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Firefox 115.0,,,31-12-2023 23:19:48,31-12-2023 23:19:51,"3,189s",PASSED
+"click(findTestObject(""Object Repository/demoblaze/signup_repo/a_Sign up""))",Firefox 115.0,,,31-12-2023 23:19:51,31-12-2023 23:19:57,"5,721s",PASSED
+"setText(findTestObject(""demoblaze/signup_repo/input_Username_sign-username""), ""mmaarif"")",Firefox 115.0,,,31-12-2023 23:19:57,31-12-2023 23:20:03,"5,876s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/demoblaze/signup_repo/input_Password_sign-password""), ""Tscr9DIxB28="")",Firefox 115.0,,,31-12-2023 23:20:03,31-12-2023 23:20:03,"0,473s",PASSED
+"click(findTestObject(""Object Repository/demoblaze/signup_repo/button_Sign up""))",Firefox 115.0,,,31-12-2023 23:20:03,31-12-2023 23:20:04,"0,577s",PASSED
+"click(findTestObject(""demoblaze/signup_repo/button_Close""))",Firefox 115.0,,,31-12-2023 23:20:04,31-12-2023 23:20:05,"1,076s",PASSED
+,,,,,,,
+Test Cases/demoblaze_tc/signin,Firefox 115.0,Sign In Test,,31-12-2023 23:20:05,31-12-2023 23:20:08,"2,982s",PASSED
+"click(findTestObject(""Object Repository/demoblaze/signin_repro/a_Log in""))",Firefox 115.0,,,31-12-2023 23:20:05,31-12-2023 23:20:06,"0,636s",PASSED
+"setText(findTestObject(""Object Repository/demoblaze/signin_repro/input_Username_loginusername""), ""mmaarif"")",Firefox 115.0,,,31-12-2023 23:20:06,31-12-2023 23:20:07,"0,685s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/demoblaze/signin_repro/input_Password_loginpassword""), ""Tscr9DIxB28="")",Firefox 115.0,,,31-12-2023 23:20:07,31-12-2023 23:20:07,"0,747s",PASSED
+"click(findTestObject(""Object Repository/demoblaze/signin_repro/button_Log in""))",Firefox 115.0,,,31-12-2023 23:20:07,31-12-2023 23:20:08,"0,721s",PASSED
+,,,,,,,
+Test Cases/demoblaze_tc/puchase_item,Firefox 115.0,,,31-12-2023 23:20:08,31-12-2023 23:20:25,"16,369s",PASSED
+"click(findTestObject(""Object Repository/demoblaze/purchase_item/img_CATEGORIES_card-img-top img-fluid""))",Firefox 115.0,,,31-12-2023 23:20:08,31-12-2023 23:20:13,"4,302s",PASSED
+"click(findTestObject(""Object Repository/demoblaze/purchase_item/a_Add to cart""))",Firefox 115.0,,,31-12-2023 23:20:13,31-12-2023 23:20:14,"1,414s",PASSED
+"click(findTestObject(""Object Repository/demoblaze/purchase_item/a_Cart""))",Firefox 115.0,,,31-12-2023 23:20:14,31-12-2023 23:20:15,"1,461s",PASSED
+"click(findTestObject(""Object Repository/demoblaze/purchase_item/button_Place Order""))",Firefox 115.0,,,31-12-2023 23:20:15,31-12-2023 23:20:17,"1,600s",PASSED
+"setText(findTestObject(""Object Repository/demoblaze/purchase_item/input_Name_name""), ""miftah"")",Firefox 115.0,,,31-12-2023 23:20:17,31-12-2023 23:20:18,"0,773s",PASSED
+"setText(findTestObject(""Object Repository/demoblaze/purchase_item/input_Country_country""), ""indonesia"")",Firefox 115.0,,,31-12-2023 23:20:18,31-12-2023 23:20:18,"0,576s",PASSED
+"setText(findTestObject(""Object Repository/demoblaze/purchase_item/input_City_city""), ""pasuruan"")",Firefox 115.0,,,31-12-2023 23:20:18,31-12-2023 23:20:19,"0,561s",PASSED
+"setText(findTestObject(""Object Repository/demoblaze/purchase_item/input_Credit card_card""), ""99776498234567654323"")",Firefox 115.0,,,31-12-2023 23:20:19,31-12-2023 23:20:20,"0,582s",PASSED
+"setText(findTestObject(""Object Repository/demoblaze/purchase_item/input_Month_month""), ""01"")",Firefox 115.0,,,31-12-2023 23:20:20,31-12-2023 23:20:20,"0,555s",PASSED
+"setText(findTestObject(""Object Repository/demoblaze/purchase_item/input_Year_year""), ""2030"")",Firefox 115.0,,,31-12-2023 23:20:20,31-12-2023 23:20:21,"0,597s",PASSED
+"click(findTestObject(""Object Repository/demoblaze/purchase_item/button_Purchase""))",Firefox 115.0,,,31-12-2023 23:20:21,31-12-2023 23:20:21,"0,521s",PASSED
+"click(findTestObject(""Object Repository/demoblaze/purchase_item/button_OK""))",Firefox 115.0,,,31-12-2023 23:20:21,31-12-2023 23:20:23,"1,871s",PASSED
+closeBrowser(),Firefox 115.0,,,31-12-2023 23:20:23,31-12-2023 23:20:25,"1,407s",PASSED

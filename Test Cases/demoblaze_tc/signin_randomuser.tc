@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negative Test signin</description>
+   <name>signin_randomuser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>629b2aef-c950-4372-9df2-08070e5f40f7</testCaseGuid>
+</TestCaseEntity>
